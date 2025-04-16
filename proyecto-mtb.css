@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(200, 200, 255) ;
+    margin: 0%;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: aliceblue;
+    padding: 30px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.178);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+header nav div {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    align-items: center;
+    color: blueviolet;
+}
+
+.barra-navegación {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+#cuenta-carrito {
+    background-color: blueviolet;
+    border-radius: 100%;
+    position: absolute;
+    margin: 3px;
+    padding: 3px;
+}
+
+a:hover:not(#cart) {
+    color:rgb(138, 208, 231);
+}
+
+footer {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 0.09rem;
+}
